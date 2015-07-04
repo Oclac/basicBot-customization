@@ -1,7 +1,7 @@
 (function () {
     
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "Oclac";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -63,13 +63,13 @@
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         autowoot: true,
-        smartSkip: true,
+        smartSkip: false,
         cmdDeletion: true,
         maximumAfk: 120,
-        afkRemoval: true,
+        afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: true,
-        blacklistEnabled: true,
+        blacklistEnabled: false,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
@@ -79,11 +79,11 @@
         voteSkipLimit: 10,
         historySkip: false,
         timeGuard: true,
-        maximumSongLength: 10,
-        autodisable: true,
-        commandCooldown: 30,
+        maximumSongLength: 7,
+        autodisable: false,
+        commandCooldown: 3,
         usercommandsEnabled: true,
-        skipPosition: 3,
+        skipPosition: 5,
         skipReasons: [
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
@@ -98,18 +98,18 @@
         motdEnabled: false,
         motdInterval: 5,
         motd: "Temporary Message of the Day",
-        filterChat: true,
+        filterChat: false,
         etaRestriction: false,
-        welcome: true,
+        welcome: false,
         opLink: null,
-        rulesLink: null,
-        themeLink: null,
+        rulesLink: "Take a look at our rules. http://www.nightcore-331.net/viewtopic.php?f=6&t=624",
+        themeLink: "Take a look at our theme. list.http://www.nightcore-331.net/viewtopic.php?f=6&t=626",
         fbLink: null,
         youtubeLink: null,
-        website: null,
+        website: "Here is the link to our forum.http://www.nightcore-331.net/index.php",
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: flase,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/NSFWlist.json",
