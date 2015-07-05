@@ -109,7 +109,7 @@
         website: "Here is the link to our forum. http://www.nightcore-331.net/index.php",
         intervalMessages: [],
         messageInterval: 5,
-        songstats: flase,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/NSFWlist.json",
