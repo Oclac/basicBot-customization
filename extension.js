@@ -62,7 +62,7 @@
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
-        autowoot: true,
+        autowoot: false,
         smartSkip: false,
         cmdDeletion: true,
         maximumAfk: 120,
@@ -101,7 +101,7 @@
         filterChat: false,
         etaRestriction: false,
         welcome: false,
-        opLink: null,
+        opLink: "http://www.umcookies.com/nightcore-331/blacklist.php",
         rulesLink: "http://www.nightcore-331.net/viewtopic.php?f=6&t=624",
         themeLink: "http://www.nightcore-331.net/viewtopic.php?f=6&t=626",
         fbLink: null,
