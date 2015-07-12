@@ -119,6 +119,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://github.com/Oclac/basicBot/blob/master/basicBot.js", extend);
+    $.getScript("https://raw.githubusercontent.com/Oclac/basicBot/master/basicBot.js", extend);
 
 }).call(this);
