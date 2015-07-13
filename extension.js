@@ -105,7 +105,7 @@
         rulesLink: "http://www.nightcore-331.net/viewtopic.php?f=6&t=624",
         themeLink: "http://www.nightcore-331.net/viewtopic.php?f=6&t=626",
         fbLink: null,
-        youtubeLink: null,
+        youtubeLink: "Interested in applying for Bouncer? Visit here: https://www.nightcore-331.net/viewforum.php?f=65 and make sure you meet all of the requirements first!",
         website: "http://www.nightcore-331.net/index.php",
         intervalMessages: [],
         messageInterval: 5,
